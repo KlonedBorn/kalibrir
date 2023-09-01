@@ -1,0 +1,50 @@
+.root {
+    -fx-font-family: "Roboto Lt";
+}
+
+.view-layout {
+    -fx-pref-width: 900px;
+    -fx-pref-height: 600px;
+
+    -fx-padding: 30px;
+    -fx-alignment: center;
+}
+
+.container {
+    -fx-alignment:top-center;
+    -fx-border-color:black;
+    -fx-border-width:2px;
+    -fx-border-radius:10px;
+    -fx-padding:10px;
+}
+
+.header {
+}
+
+.logo {
+    -fx-font-size:46px;
+    -fx-font-weight:bold;
+    -fx-text-fill:rgb(255, 115, 0);
+}
+
+.appline {
+    -fx-font-size:24px;
+}
+
+.section {
+    -fx-padding:10px;
+    /* -fx-border-color:dodgerblue;
+    -fx-border-width:2px;
+    -fx-border-radius:10px; */
+    -fx-spacing:10px;
+}
+.counter-bar{
+    -fx-alignment:center;
+    -fx-spacing:20px;
+}
+
+.counter-bar .label{
+    -fx-font-size:14px;
+    -fx-font-weight:bold;
+}
+.info {}
